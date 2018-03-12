@@ -1,0 +1,158 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Kurento Java Tutorial - Hello World 6.6.2
+[INFO] ------------------------------------------------------------------------
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/3.0.0/maven-clean-plugin-3.0.0.pom
+4/5 KB   5/5 KB            Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/3.0.0/maven-clean-plugin-3.0.0.pom (5 KB at 4.8 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/28/maven-plugins-28.pom
+4/12 KB   5/12 KB   9/12 KB   9/12 KB   12/12 KB   12/12 KB              Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/28/maven-plugins-28.pom (12 KB at 20.5 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/27/maven-parent-27.pom
+3/40 KB    5/40 KB   6/40 KB   9/40 KB   12/40 KB   14/40 KB   17/40 KB   20/40 KB   23/40 KB   26/40 KB   27/40 KB   31/40 KB   33/40 KB   35/40 KB   38/40 KB   40/40 KB              Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/27/maven-parent-27.pom (40 KB at 49.9 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/apache/17/apache-17.pom
+2/16 KB    3/16 KB   6/16 KB   9/16 KB   12/16 KB   13/16 KB   14/16 KB   16/16 KB   16/16 KB              Downloaded: http://repo.maven.apache.org/maven2/org/apache/apache/17/apache-17.pom (16 KB at 26.5 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/3.0.0/maven-clean-plugin-3.0.0.jar
+4/30 KB    5/30 KB   8/30 KB   11/30 KB   14/30 KB   17/30 KB   19/30 KB   22/30 KB   24/30 KB   25/30 KB   28/30 KB   30/30 KB              Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/3.0.0/maven-clean-plugin-3.0.0.jar (30 KB at 49.1 KB/sec)
+[INFO] 
+[INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ kurento-hello-world ---
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.pom
+3/3 KB     3/3 KB            Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.pom (3 KB at 4.4 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/maven/3.0/maven-3.0.pom
+4/22 KB   5/22 KB   8/22 KB   11/22 KB   14/22 KB   17/22 KB   19/22 KB   22/22 KB              Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/maven/3.0/maven-3.0.pom (22 KB at 36.8 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/15/maven-parent-15.pom
+3/24 KB    6/24 KB   9/24 KB   12/24 KB   14/24 KB   17/24 KB   20/24 KB   23/24 KB   24/24 KB              Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/15/maven-parent-15.pom (24 KB at 40.2 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/apache/6/apache-6.pom
+3/13 KB    6/13 KB   9/13 KB   12/13 KB   13/13 KB              Downloaded: http://repo.maven.apache.org/maven2/org/apache/apache/6/apache-6.pom (13 KB at 21.7 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.0/maven-model-3.0.pom
+4/4 KB     4/4 KB            Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.0/maven-model-3.0.pom (4 KB at 7.5 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/2.0.4/plexus-utils-2.0.4.pom
+4/4 KB            Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/2.0.4/plexus-utils-2.0.4.pom (4 KB at 3.5 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/2.0.6/plexus-2.0.6.pom
+3/17 KB   6/17 KB   9/17 KB   12/17 KB   14/17 KB   17/17 KB              Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/2.0.6/plexus-2.0.6.pom (17 KB at 29.5 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.0/maven-artifact-3.0.pom
+2/2 KB              Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.0/maven-artifact-3.0.pom (2 KB at 3.6 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-inject-plexus/1.4.2/sisu-inject-plexus-1.4.2.pom
+4/6 KB   5/6 KB   6/6 KB            Downloaded: http://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-inject-plexus/1.4.2/sisu-inject-plexus-1.4.2.pom (6 KB at 10.9 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/sonatype/sisu/inject/guice-plexus/1.4.2/guice-plexus-1.4.2.pom
+4/4 KB            Downloaded: http://repo.maven.apache.org/maven2/org/sonatype/sisu/inject/guice-plexus/1.4.2/guice-plexus-1.4.2.pom (4 KB at 6.1 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/sonatype/sisu/inject/guice-bean/1.4.2/guice-bean-1.4.2.pom
+3/3 KB            Downloaded: http://repo.maven.apache.org/maven2/org/sonatype/sisu/inject/guice-bean/1.4.2/guice-bean-1.4.2.pom (3 KB at 4.6 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-inject/1.4.2/sisu-inject-1.4.2.pom
+2/2 KB            Downloaded: http://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-inject/1.4.2/sisu-inject-1.4.2.pom (2 KB at 2.7 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-parent/1.4.2/sisu-parent-1.4.2.pom
+4/8 KB   5/8 KB   8/8 KB            Downloaded: http://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-parent/1.4.2/sisu-parent-1.4.2.pom (8 KB at 14.8 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/sonatype/forge/forge-parent/6/forge-parent-6.pom
+3/11 KB   6/11 KB   9/11 KB   11/11 KB              Downloaded: http://repo.maven.apache.org/maven2/org/sonatype/forge/forge-parent/6/forge-parent-6.pom (11 KB at 19.4 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.2.3/plexus-classworlds-2.2.3.pom
+4/4 KB     4/4 KB            Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.2.3/plexus-classworlds-2.2.3.pom (4 KB at 7.2 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/2.0.5/plexus-utils-2.0.5.pom
+4/4 KB            Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/2.0.5/plexus-utils-2.0.5.pom (4 KB at 6.7 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.pom
+4/6 KB   5/6 KB   6/6 KB            Downloaded: http://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.pom (6 KB at 10.2 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7.pom
+4/11 KB   5/11 KB   8/11 KB   11/11 KB   11/11 KB              Downloaded: http://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7.pom (11 KB at 19.5 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.0.0/maven-shared-utils-3.0.0.pom
+4/6 KB     5/6 KB   6/6 KB            Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.0.0/maven-shared-utils-3.0.0.pom (6 KB at 11.5 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/21/maven-shared-components-21.pom
+4/5 KB   5/5 KB   5/5 KB            Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/21/maven-shared-components-21.pom (5 KB at 10.1 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/25/maven-parent-25.pom
+4/37 KB   8/37 KB   8/37 KB   11/37 KB   14/37 KB   17/37 KB   19/37 KB   22/37 KB   25/37 KB   28/37 KB   31/37 KB   33/37 KB   36/37 KB   37/37 KB              Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/25/maven-parent-25.pom (37 KB at 55.5 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/2.0.4/plexus-utils-2.0.4.jar
+Downloading: http://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7-noaop.jar
+Downloading: http://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.jar
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.0.0/maven-shared-utils-3.0.0.jar
+4/217 KB   5/217 KB   8/217 KB   11/217 KB   14/217 KB   17/217 KB   19/217 KB   22/217 KB   25/217 KB   28/217 KB   31/217 KB   33/217 KB   36/217 KB   39/217 KB   42/217 KB   45/217 KB   47/217 KB   50/217 KB   53/217 KB   57/217 KB   57/217 KB   58/217 KB   61/217 KB   61/217 KB   4/461 KB   61/217 KB   8/461 KB   61/217 KB   12/461 KB   63/217 KB   13/461 KB   64/217 KB   13/461 KB   64/217 KB   13/461 KB   4/152 KB   64/217 KB   13/461 KB   5/152 KB   64/217 KB   13/461 KB   9/152 KB   64/217 KB   13/461 KB   13/152 KB   64/217 KB   13/461 KB   13/152 KB   64/217 KB   13/461 KB   13/152 KB   1/150 KB   64/217 KB   13/461 KB   13/152 KB   5/150 KB   64/217 KB   13/461 KB   13/152 KB   9/150 KB   64/217 KB   13/461 KB   13/152 KB   13/150 KB   64/217 KB   13/461 KB   13/152 KB   14/150 KB   67/217 KB   13/461 KB   13/152 KB   14/150 KB   61/217 KB   13/461 KB   70/217 KB   13/461 KB   13/152 KB   14/150 KB   72/217 KB   13/461 KB   13/152 KB   14/150 KB   74/217 KB   13/461 KB   13/152 KB   14/150 KB   77/217 KB   13/461 KB   13/152 KB   14/150 KB   78/217 KB   13/461 KB   13/152 KB   14/150 KB   78/217 KB   13/461 KB   13/152 KB   18/150 KB   78/217 KB   13/461 KB   13/152 KB   18/150 KB   78/217 KB   13/461 KB   13/152 KB   19/150 KB   78/217 KB   13/461 KB   14/152 KB   19/150 KB   78/217 KB   13/461 KB   18/152 KB   19/150 KB   78/217 KB   13/461 KB   19/152 KB   19/150 KB   78/217 KB   13/461 KB   21/152 KB   19/150 KB   78/217 KB   13/461 KB   21/152 KB   21/150 KB   78/217 KB   13/461 KB   21/152 KB   22/150 KB   78/217 KB   13/461 KB   23/152 KB   22/150 KB   78/217 KB   13/461 KB   23/152 KB   25/150 KB   78/217 KB   13/461 KB   26/152 KB   25/150 KB   78/217 KB   13/461 KB   26/152 KB   26/150 KB   78/217 KB   13/461 KB   26/152 KB   28/150 KB   78/217 KB   13/461 KB   28/152 KB   28/150 KB   78/217 KB   13/461 KB   28/152 KB   29/150 KB   78/217 KB   13/461 KB   28/152 KB   31/150 KB   78/217 KB   13/461 KB   31/152 KB   31/150 KB   78/217 KB   13/461 KB   31/152 KB   33/150 KB   78/217 KB   13/461 KB   34/152 KB   33/150 KB   78/217 KB   13/461 KB   34/152 KB   36/150 KB   78/217 KB   13/461 KB   37/152 KB   36/150 KB   78/217 KB   13/461 KB   37/152 KB   39/150 KB   78/217 KB   13/461 KB   38/152 KB   39/150 KB   78/217 KB   13/461 KB   40/152 KB   39/150 KB   82/217 KB   13/461 KB   40/152 KB   39/150 KB   86/217 KB   13/461 KB   40/152 KB   39/150 KB   90/217 KB   13/461 KB   40/152 KB   39/150 KB   94/217 KB   13/461 KB   40/152 KB   39/150 KB   98/217 KB   13/461 KB   40/152 KB   39/150 KB   102/217 KB   13/461 KB   40/152 KB   39/150 KB   106/217 KB   13/461 KB   40/152 KB   39/150 KB   110/217 KB   13/461 KB   40/152 KB   39/150 KB   114/217 KB   13/461 KB   40/152 KB   39/150 KB   118/217 KB   13/461 KB   40/152 KB   39/150 KB   122/217 KB   13/461 KB   40/152 KB   39/150 KB   126/217 KB   13/461 KB   40/152 KB   39/150 KB   130/217 KB   13/461 KB   40/152 KB   39/150 KB   134/217 KB   13/461 KB   40/152 KB   39/150 KB   138/217 KB   13/461 KB   40/152 KB   39/150 KB   139/217 KB   13/461 KB   40/152 KB   39/150 KB   139/217 KB   13/461 KB   41/152 KB   39/150 KB   142/217 KB   13/461 KB   41/152 KB   39/150 KB   142/217 KB   13/461 KB   41/152 KB   42/150 KB   145/217 KB   13/461 KB   41/152 KB   42/150 KB   146/217 KB   13/461 KB   41/152 KB   42/150 KB   148/217 KB   13/461 KB   41/152 KB   42/150 KB   150/217 KB   13/461 KB   41/152 KB   42/150 KB   152/217 KB   13/461 KB   41/152 KB   42/150 KB   155/217 KB   13/461 KB   41/152 KB   42/150 KB   156/217 KB   13/461 KB   41/152 KB   42/150 KB   157/217 KB   13/461 KB   41/152 KB   42/150 KB   160/217 KB   13/461 KB   41/152 KB   42/150 KB   160/217 KB   14/461 KB   41/152 KB   42/150 KB   160/217 KB   14/461 KB   45/152 KB   42/150 KB   160/217 KB   14/461 KB   47/152 KB   42/150 KB   162/217 KB   14/461 KB   47/152 KB   42/150 KB   162/217 KB   14/461 KB   49/152 KB   42/150 KB   163/217 KB   14/461 KB   49/152 KB   42/150 KB   163/217 KB   18/461 KB   49/152 KB   42/150 KB   163/217 KB   22/461 KB   49/152 KB   42/150 KB   163/217 KB   26/461 KB   49/152 KB   42/150 KB   163/217 KB   30/461 KB   49/152 KB   42/150 KB   163/217 KB   34/461 KB   49/152 KB   42/150 KB   163/217 KB   38/461 KB   49/152 KB   42/150 KB   163/217 KB   42/461 KB   49/152 KB   42/150 KB   163/217 KB   42/461 KB   51/152 KB   42/150 KB   163/217 KB   45/461 KB   51/152 KB   42/150 KB   163/217 KB   45/461 KB   55/152 KB   42/150 KB   163/217 KB   45/461 KB   55/152 KB   42/150 KB   163/217 KB   45/461 KB   55/152 KB   46/150 KB   163/217 KB   45/461 KB   55/152 KB   47/150 KB   163/217 KB   45/461 KB   56/152 KB   47/150 KB   164/217 KB   45/461 KB   56/152 KB   47/150 KB   164/217 KB   45/461 KB   58/152 KB   47/150 KB   166/217 KB   45/461 KB   58/152 KB   47/150 KB   166/217 KB   45/461 KB   58/152 KB   50/150 KB   166/217 KB   45/461 KB   60/152 KB   50/150 KB   167/217 KB   48/461 KB   60/152 KB   50/150 KB   167/217 KB   48/461 KB   60/152 KB   53/150 KB   167/217 KB   45/461 KB   60/152 KB   50/150 KB   171/217 KB   48/461 KB   60/152 KB   53/150 KB   171/217 KB   48/461 KB   60/152 KB   53/150 KB   171/217 KB   48/461 KB   63/152 KB   53/150 KB   171/217 KB   48/461 KB   63/152 KB   56/150 KB   171/217 KB   48/461 KB   66/152 KB   56/150 KB   174/217 KB   48/461 KB   66/152 KB   56/150 KB   174/217 KB   51/461 KB   66/152 KB   56/150 KB   174/217 KB   51/461 KB   66/152 KB   58/150 KB   174/217 KB   51/461 KB   69/152 KB   58/150 KB   176/217 KB   51/461 KB   69/152 KB   58/150 KB   176/217 KB   51/461 KB   72/152 KB   58/150 KB   176/217 KB   52/461 KB   72/152 KB   58/150 KB   176/217 KB   53/461 KB   72/152 KB   58/150 KB   176/217 KB   53/461 KB   72/152 KB   60/150 KB   176/217 KB   53/461 KB   72/152 KB   61/150 KB   178/217 KB   53/461 KB   72/152 KB   61/150 KB   178/217 KB   53/461 KB   74/152 KB   61/150 KB   178/217 KB   53/461 KB   74/152 KB   64/150 KB   178/217 KB   53/461 KB   77/152 KB   64/150 KB   178/217 KB   56/461 KB   77/152 KB   64/150 KB   178/217 KB   56/461 KB   77/152 KB   67/150 KB   180/217 KB   56/461 KB   77/152 KB   67/150 KB   180/217 KB   56/461 KB   80/152 KB   67/150 KB   183/217 KB   56/461 KB   81/152 KB   67/150 KB   183/217 KB   58/461 KB   83/152 KB   70/150 KB   183/217 KB   58/461 KB   81/152 KB   70/150 KB   183/217 KB   58/461 KB   81/152 KB   70/150 KB   183/217 KB   58/461 KB   81/152 KB   67/150 KB   183/217 KB   58/461 KB   83/152 KB   72/150 KB   185/217 KB   58/461 KB   83/152 KB   72/150 KB   185/217 KB   58/461 KB   84/152 KB   72/150 KB   185/217 KB   58/461 KB   84/152 KB   75/150 KB   185/217 KB   58/461 KB   87/152 KB   75/150 KB   187/217 KB   58/461 KB   87/152 KB   75/150 KB   187/217 KB   58/461 KB   87/152 KB   77/150 KB   187/217 KB   58/461 KB   90/152 KB   77/150 KB   187/217 KB   58/461 KB   90/152 KB   78/150 KB   187/217 KB   58/461 KB   93/152 KB   78/150 KB   187/217 KB   58/461 KB   93/152 KB   81/150 KB   191/217 KB   58/461 KB   93/152 KB   81/150 KB   191/217 KB   58/461 KB   93/152 KB   81/150 KB   191/217 KB   58/461 KB   93/152 KB   84/150 KB   191/217 KB   58/461 KB   95/152 KB   84/150 KB   191/217 KB   58/461 KB   95/152 KB   86/150 KB   191/217 KB   58/461 KB   97/152 KB   86/150 KB   194/217 KB   58/461 KB   97/152 KB   86/150 KB   194/217 KB   58/461 KB   97/152 KB   88/150 KB   194/217 KB   58/461 KB   97/152 KB   89/150 KB   194/217 KB   58/461 KB   97/152 KB   92/150 KB   194/217 KB   58/461 KB   97/152 KB   95/150 KB   197/217 KB   58/461 KB   97/152 KB   95/150 KB   197/217 KB   58/461 KB   97/152 KB   96/150 KB   198/217 KB   58/461 KB   97/152 KB   96/150 KB   202/217 KB   58/461 KB   97/152 KB   96/150 KB   202/217 KB   58/461 KB   97/152 KB   96/150 KB   202/217 KB   60/461 KB   97/152 KB   96/150 KB   202/217 KB   60/461 KB   101/152 KB   96/150 KB   202/217 KB   60/461 KB   102/152 KB   96/150 KB   203/217 KB   60/461 KB   102/152 KB   96/150 KB   203/217 KB   60/461 KB   105/152 KB   96/150 KB   203/217 KB   62/461 KB   105/152 KB   96/150 KB   205/217 KB   62/461 KB   105/152 KB   96/150 KB   205/217 KB   62/461 KB   106/152 KB   96/150 KB   205/217 KB   65/461 KB   106/152 KB   96/150 KB   205/217 KB   65/461 KB   110/152 KB   96/150 KB   205/217 KB   65/461 KB   111/152 KB   96/150 KB   208/217 KB   65/461 KB   111/152 KB   96/150 KB   208/217 KB   65/461 KB   112/152 KB   96/150 KB   209/217 KB   65/461 KB   112/152 KB   96/150 KB   209/217 KB   65/461 KB   115/152 KB   96/150 KB   209/217 KB   67/461 KB   115/152 KB   96/150 KB   213/217 KB   67/461 KB   115/152 KB   96/150 KB   213/217 KB   67/461 KB   118/152 KB   96/150 KB   213/217 KB   67/461 KB   118/152 KB   96/150 KB   213/217 KB   67/461 KB   120/152 KB   96/150 KB   216/217 KB   67/461 KB   120/152 KB   96/150 KB   216/217 KB   67/461 KB   123/152 KB   96/150 KB   217/217 KB   67/461 KB   123/152 KB   96/150 KB   217/217 KB   70/461 KB   123/152 KB   96/150 KB   217/217 KB   70/461 KB   126/152 KB   96/150 KB   217/217 KB   70/461 KB   129/152 KB   96/150 KB   217/217 KB   70/461 KB   132/152 KB   96/150 KB   217/217 KB   72/461 KB   132/152 KB   96/150 KB   217/217 KB   73/461 KB   132/152 KB   96/150 KB   217/217 KB   73/461 KB   134/152 KB   96/150 KB   217/217 KB   73/461 KB   136/152 KB   96/150 KB   217/217 KB   73/461 KB   137/152 KB   96/150 KB   217/217 KB   73/461 KB   140/152 KB   96/150 KB   217/217 KB   76/461 KB   140/152 KB   96/150 KB   217/217 KB   76/461 KB   143/152 KB   96/150 KB   217/217 KB   76/461 KB   146/152 KB   96/150 KB   217/217 KB   79/461 KB   146/152 KB   96/150 KB   217/217 KB   79/461 KB   148/152 KB   96/150 KB   217/217 KB   79/461 KB   151/152 KB   96/150 KB   217/217 KB   79/461 KB   152/152 KB   96/150 KB   217/217 KB   81/461 KB   152/152 KB   96/150 KB   217/217 KB   84/461 KB   152/152 KB   96/150 KB   217/217 KB   87/461 KB   152/152 KB   96/150 KB   217/217 KB   90/461 KB   152/152 KB   96/150 KB   217/217 KB   90/461 KB   152/152 KB   100/150 KB   217/217 KB   90/461 KB   152/152 KB   104/150 KB   217/217 KB   90/461 KB   152/152 KB   108/150 KB   217/217 KB   90/461 KB   152/152 KB   112/150 KB   217/217 KB   90/461 KB   152/152 KB   116/150 KB   217/217 KB   90/461 KB   152/152 KB   120/150 KB   217/217 KB   90/461 KB   152/152 KB   124/150 KB   217/217 KB   90/461 KB   152/152 KB   128/150 KB   217/217 KB   90/461 KB   152/152 KB   132/150 KB   217/217 KB   90/461 KB   152/152 KB   136/150 KB   217/217 KB   90/461 KB   152/152 KB   140/150 KB   217/217 KB   90/461 KB   152/152 KB   144/150 KB   217/217 KB   90/461 KB   152/152 KB   148/150 KB   217/217 KB   90/461 KB   152/152 KB   150/150 KB   217/217 KB   91/461 KB   152/152 KB   150/150 KB                                                      Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/2.0.4/plexus-utils-2.0.4.jar (217 KB at 140.9 KB/sec)
+94/461 KB   152/152 KB   150/150 KB                97/461 KB   152/152 KB   150/150 KB   100/461 KB   152/152 KB   150/150 KB   102/461 KB   152/152 KB   150/150 KB                                          Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.0.0/maven-shared-utils-3.0.0.jar (152 KB at 92.3 KB/sec)
+105/461 KB   150/150 KB                108/461 KB   150/150 KB   111/461 KB   150/150 KB                             Downloaded: http://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.jar (150 KB at 86.3 KB/sec)
+113/461 KB                115/461 KB   118/461 KB   120/461 KB   123/461 KB   126/461 KB   129/461 KB   132/461 KB   136/461 KB   137/461 KB   140/461 KB   143/461 KB   146/461 KB   148/461 KB   151/461 KB   153/461 KB   155/461 KB   158/461 KB   162/461 KB   164/461 KB   166/461 KB   169/461 KB   172/461 KB   175/461 KB   178/461 KB   180/461 KB   183/461 KB   186/461 KB   189/461 KB   192/461 KB   194/461 KB   197/461 KB   200/461 KB   203/461 KB   205/461 KB   208/461 KB   211/461 KB   214/461 KB   217/461 KB   219/461 KB   221/461 KB   222/461 KB   225/461 KB   228/461 KB   231/461 KB   233/461 KB   236/461 KB   239/461 KB   242/461 KB   246/461 KB   247/461 KB   250/461 KB   253/461 KB   256/461 KB   258/461 KB   261/461 KB   264/461 KB   267/461 KB   270/461 KB   272/461 KB   275/461 KB   278/461 KB   281/461 KB   284/461 KB   286/461 KB   289/461 KB   292/461 KB   295/461 KB   298/461 KB   300/461 KB   303/461 KB   306/461 KB   307/461 KB   309/461 KB   311/461 KB   314/461 KB   317/461 KB   320/461 KB   323/461 KB   325/461 KB   328/461 KB   331/461 KB   334/461 KB   337/461 KB   338/461 KB   342/461 KB   346/461 KB   350/461 KB   354/461 KB   358/461 KB   362/461 KB   366/461 KB   367/461 KB   369/461 KB   371/461 KB   374/461 KB   377/461 KB   380/461 KB   383/461 KB   385/461 KB   387/461 KB   388/461 KB   391/461 KB   394/461 KB   397/461 KB   399/461 KB   402/461 KB   405/461 KB   408/461 KB   409/461 KB   410/461 KB   413/461 KB   416/461 KB   419/461 KB   422/461 KB   424/461 KB   427/461 KB   430/461 KB   433/461 KB   436/461 KB   440/461 KB   441/461 KB   444/461 KB   447/461 KB   450/461 KB   452/461 KB   455/461 KB   458/461 KB   461/461 KB   461/461 KB                Downloaded: http://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7-noaop.jar (461 KB at 84.9 KB/sec)
+[INFO] Deleting /usr/local/src/kurento-tutorial-java/kurento-hello-world/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-java-version) @ kurento-hello-world ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven-version) @ kurento-hello-world ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-bytecode-version) @ kurento-hello-world ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-ban-duplicate-classes) @ kurento-hello-world ---
+[WARNING] Rule 0: org.apache.maven.plugins.enforcer.BanDuplicateClasses failed with message:
+Duplicate classes found:
+
+  Found in:
+    org.slf4j:jcl-over-slf4j:jar:1.7.21:compile
+    commons-logging:commons-logging:jar:1.1.3:compile
+  Duplicate classes:
+    org/apache/commons/logging/impl/SimpleLog$1.class
+    org/apache/commons/logging/LogConfigurationException.class
+    org/apache/commons/logging/Log.class
+    org/apache/commons/logging/impl/NoOpLog.class
+    org/apache/commons/logging/impl/SimpleLog.class
+    org/apache/commons/logging/LogFactory.class
+
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-ban-circular-dependencies) @ kurento-hello-world ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create-timestamp (get-build-timestamp) @ kurento-hello-world ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create (get-scm-revision) @ kurento-hello-world ---
+[INFO] Executing: /bin/sh -c cd '/usr/local/src/kurento-tutorial-java/kurento-hello-world' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /usr/local/src/kurento-tutorial-java/kurento-hello-world
+[INFO] Storing buildNumber: aa6f149af3efdb0104bca265e394e7defd2c01b4 at timestamp: 1513561296243
+[WARNING] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[INFO] Executing: /bin/sh -c cd '/usr/local/src/kurento-tutorial-java/kurento-hello-world' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /usr/local/src/kurento-tutorial-java/kurento-hello-world
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ kurento-hello-world ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 13 resources
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ kurento-hello-world ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /usr/local/src/kurento-tutorial-java/kurento-hello-world/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.7
+[INFO] 
+[INFO] --- exec-maven-plugin:1.4.0:java (default-cli) @ kurento-hello-world ---
+
+   .------------------------------------.
+   |                                    |
+   |   | |/ /  _ _ _ ___ _ _| |_ ___    |
+   |   | ' < || | '_/ -_) ' \  _/ _ \   |
+   |   |_|\_\_,_|_| \___|_||_\__\___/   |
+   |                                    |
+   '------------------------------------'
+       Kurento Java Tutorial - Hello World
+       Version 6.6.2
+
+2017-12-18 09:41:40.191  INFO 6011 --- [WorldApp.main()] o.k.tutorial.helloworld.HelloWorldApp    : Starting HelloWorldApp on hunter-virtual-machine with PID 6011 (/usr/local/src/kurento-tutorial-java/kurento-hello-world/target/classes started by root in /usr/local/src/kurento-tutorial-java/kurento-hello-world)
+2017-12-18 09:41:40.205  INFO 6011 --- [WorldApp.main()] o.k.tutorial.helloworld.HelloWorldApp    : No active profile set, falling back to default profiles: default
+2017-12-18 09:41:40.340  INFO 6011 --- [WorldApp.main()] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@19e54cdc: startup date [Mon Dec 18 09:41:40 CST 2017]; root of context hierarchy
+2017-12-18 09:41:42.524  INFO 6011 --- [WorldApp.main()] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-12-18 09:41:43.473  INFO 6011 --- [WorldApp.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8443 (https)
+2017-12-18 09:41:43.529  INFO 6011 --- [WorldApp.main()] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-12-18 09:41:43.538  INFO 6011 --- [WorldApp.main()] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.5
+2017-12-18 09:41:43.700  INFO 6011 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-12-18 09:41:43.700  INFO 6011 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3360 ms
+2017-12-18 09:41:43.992  INFO 6011 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-18 09:41:43.995  INFO 6011 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-18 09:41:43.996  INFO 6011 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-18 09:41:43.996  INFO 6011 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-18 09:41:44.000  INFO 6011 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-18 09:41:44.135  INFO 6011 --- [WorldApp.main()] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService  'defaultSockJsTaskScheduler'
+2017-12-18 09:41:44.286  INFO 6011 --- [rbeatExec-e1-t0] o.k.j.c.JsonRpcClientNettyWebSocket      : [KurentoClient]  Connecting native client
+2017-12-18 09:41:44.287  INFO 6011 --- [rbeatExec-e1-t0] o.k.j.c.JsonRpcClientNettyWebSocket      : [KurentoClient]  Creating new NioEventLoopGroup
+2017-12-18 09:41:44.688  INFO 6011 --- [ntLoopGroup-2-1] o.k.j.c.JsonRpcClientNettyWebSocket      : [KurentoClient]  Inititating new Netty channel. Will create new handler too!
+2017-12-18 09:41:45.022  INFO 6011 --- [WorldApp.main()] o.s.w.s.s.s.WebSocketHandlerMapping      : Mapped URL path [/helloworld] onto handler of type [class org.springframework.web.socket.server.support.WebSocketHttpRequestHandler]
+2017-12-18 09:41:45.606  INFO 6011 --- [WorldApp.main()] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@19e54cdc: startup date [Mon Dec 18 09:41:40 CST 2017]; root of context hierarchy
+2017-12-18 09:41:45.741  INFO 6011 --- [WorldApp.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-18 09:41:45.741  INFO 6011 --- [WorldApp.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-18 09:41:45.968  INFO 6011 --- [WorldApp.main()] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-18 09:41:45.968  INFO 6011 --- [WorldApp.main()] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-18 09:41:46.064  INFO 6011 --- [WorldApp.main()] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-18 09:41:46.095  INFO 6011 --- [WorldApp.main()] oConfiguration$WelcomePageHandlerMapping : Adding welcome page: class path resource [static/index.html]
+2017-12-18 09:41:46.327  INFO 6011 --- [WorldApp.main()] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-12-18 09:41:46.344  INFO 6011 --- [WorldApp.main()] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2017-12-18 09:41:46.773  INFO 6011 --- [WorldApp.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8443 (https)
+2017-12-18 09:41:46.784  INFO 6011 --- [WorldApp.main()] o.k.tutorial.helloworld.HelloWorldApp    : Started HelloWorldApp in 7.882 seconds (JVM running for 41.272)

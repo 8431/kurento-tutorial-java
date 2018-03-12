@@ -1,0 +1,6 @@
+/usr/local/src/kurento-tutorial-java/kurento-one2one-call-advanced/src/main/java/org/kurento/tutorial/one2onecalladv/One2OneCallAdvApp.java
+/usr/local/src/kurento-tutorial-java/kurento-one2one-call-advanced/src/main/java/org/kurento/tutorial/one2onecalladv/CallHandler.java
+/usr/local/src/kurento-tutorial-java/kurento-one2one-call-advanced/src/main/java/org/kurento/tutorial/one2onecalladv/CallMediaPipeline.java
+/usr/local/src/kurento-tutorial-java/kurento-one2one-call-advanced/src/main/java/org/kurento/tutorial/one2onecalladv/PlayMediaPipeline.java
+/usr/local/src/kurento-tutorial-java/kurento-one2one-call-advanced/src/main/java/org/kurento/tutorial/one2onecalladv/UserSession.java
+/usr/local/src/kurento-tutorial-java/kurento-one2one-call-advanced/src/main/java/org/kurento/tutorial/one2onecalladv/UserRegistry.java

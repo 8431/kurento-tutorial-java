@@ -1,0 +1,7 @@
+org/kurento/tutorial/one2onecall/One2OneCallApp.class
+org/kurento/tutorial/one2onecall/CallHandler$2.class
+org/kurento/tutorial/one2onecall/CallHandler.class
+org/kurento/tutorial/one2onecall/UserRegistry.class
+org/kurento/tutorial/one2onecall/CallHandler$1.class
+org/kurento/tutorial/one2onecall/UserSession.class
+org/kurento/tutorial/one2onecall/CallMediaPipeline.class
